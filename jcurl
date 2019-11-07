@@ -1,0 +1,2 @@
+#!/bin/sh
+exec curl -s --header 'Content-Type: application/json' $JCURL_OPTS $JCURL_HOST$@ | jq $JCURL_JQ_OPTS
